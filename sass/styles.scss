@@ -1,0 +1,70 @@
+@import 'colors';
+@import 'fonts';
+@import 'text-shadows';
+@import 'box-shadows';
+
+body {
+  font-family: $primary-font;
+  color: $primary-black;
+  cursor: pointer;
+}
+
+h3 {
+  font-weight: 800;
+}
+
+i {
+  padding: 10px;
+}
+
+a {
+  text-decoration: underline;
+}
+
+#one {
+  box-shadow: $primary-box-shadow;
+}
+
+#two {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#three {
+  background-color: $primary-grey;
+  padding: 50px;
+  box-shadow: $primary-box-shadow;
+  margin-bottom: 20px;
+}
+
+.fa {
+  text-shadow: $primary-text-shadow;
+}
+
+.carousel {
+  height: 100%;
+  width: 100%;
+  .carousel-caption {
+    h1 {
+      color: $primary-white;
+      font-weight: 800;
+      font-style: italic;
+    }
+  }
+}
+
+.list-group {
+  .active {
+    background-color: $primary-black;
+    border: none;
+  }
+}
+
+@media (max-width: 575px) {
+  .text-xs-center {
+      text-align: center;
+  } 
+  .d-xs-none {
+    display: none!important;
+  }
+}
