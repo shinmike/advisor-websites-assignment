@@ -1,4 +1,4 @@
-# Website Assignment
+# Webpage Assignment
 
 Using Bootstrap, SASS, JQuery
 
